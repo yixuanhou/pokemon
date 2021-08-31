@@ -30,7 +30,7 @@ const Detail = (props) => {
             .catch(error => {
                 console.log("Error Fetching Data: ", error)
             })
-    }, []);
+    }, [name]);
 
 
     return (
