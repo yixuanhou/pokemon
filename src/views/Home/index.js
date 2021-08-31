@@ -48,8 +48,7 @@ const Home = () => {
                                         <ListItemButton
                                             component={RouterLink}
                                             to={{
-                                                pathname: `/pokemon/${item.name}`,
-                                                state: { title: item.name.charAt(0).toUpperCase() + item.name.slice(1), api: item.url }
+                                                pathname: `/pokemon/${item.name}`
                                             }}
                                         >
                                             {item.name.charAt(0).toUpperCase() + item.name.slice(1)}
